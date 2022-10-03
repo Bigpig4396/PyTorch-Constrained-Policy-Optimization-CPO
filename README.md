@@ -6,3 +6,9 @@ https://arxiv.org/abs/1705.10528
 
 
 inherit some functions from https://github.com/ajlangley/cpo-pytorch
+
+
+Tune self.max_kl, the smaller the value, the slower the training speed, but more stable. If you have stability problem, decrease this parameter. 
+
+
+self.max_J_c can be increased a little.
